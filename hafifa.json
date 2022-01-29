@@ -1,0 +1,36 @@
+{
+    "lastUsed": [
+        {
+            "type": "poPlan",
+            "title": "שמע אחי טירוף"
+        },
+        {
+            "type": "penguin",
+            "title": "בדוק נעול"
+        },
+        {
+            "type": "penguin",
+            "title": "בונקר שני חיילים"
+        }
+    ],
+    "mostPupular": [
+        {
+            "type": "system",
+            "title": "קבוע"
+        },
+        {
+            "type": "TrililiTralala",
+            "title": "נוח"
+        }
+    ],
+    "recommended": [
+        {
+            "type": "poRep",
+            "title": "דוח משטרתי"
+        },
+        {
+            "type": "noaKirel",
+            "title": "איזה בוקר"
+        }
+    ]
+}
