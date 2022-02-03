@@ -61,12 +61,60 @@
     ],
     "recommended": [
         {
-            "type": "poRep",
-            "title": "דוח משטרתי"
+            "type": "javascript",
+            "title": "JavaScript"
         },
         {
-            "type": "noaKirel",
-            "title": "איזה בוקר"
+            "type": "nodejs",
+            "title": "NodeJS"
+        },
+        {
+            "type": "nature",
+            "title": "Picture Perfect"
+        },
+        {
+            "type": "lion",
+            "title": "King of The Jungle"
+        },
+        {
+            "type": "brocoli",
+            "title": "Brocoli, eat different"
+        },
+        {
+            "type": "garlic",
+            "title": "Garlic, nature's medicine"
+        },
+        {
+            "type": "corn",
+            "title": "Corn"
+        },
+        {
+            "type": "rabbit",
+            "title": "Rabbit"
+        },
+        {
+            "type": "bull",
+            "title": "Bull"
+        },
+        {
+            "type": "dog",
+            "title": "My Dawg"
+        },
+        {
+            "type": "fox",
+            "title": "What does the Fox say?!"
+        },
+        {
+            "type": "docker",
+            "title": "Docker"
+        },
+        {
+            "type": "docker",
+            "title": "Docker"
+        },
+        {
+            "type": "docker",
+            "title": "Docker"
         }
     ]
 }
