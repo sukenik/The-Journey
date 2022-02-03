@@ -1,17 +1,19 @@
-const itemOneTitle = document.querySelector('#item-1-title');
-const itemOneIcon = document.querySelector('#item-1-icon');
-const itemsList = document.querySelectorAll('.items');
+const recentlyUsedItemsElementList = document.querySelectorAll('#recently-used-container > .items');
+const popularItemsElementList = document.querySelectorAll('#popular-container > .items');
 
 fetch('data.json')
     .then(function(response) {
         return response.json();
     })
     .then(function(data) {
-        const lastUsedList = data["lastUsed"];
-        matchIconToType(lastUsedList);
+        const lastUsedJSONList = data["lastUsed"];
+        const mostPopularJSONList = data["mostPopular"];
+
+        matchIconToType(lastUsedJSONList, recentlyUsedItemsElementList);
+        matchIconToType(mostPopularJSONList, popularItemsElementList);
     });
 
-function matchIconToType(JSONdataList) {
+function matchIconToType(JSONdataList, itemsList) {
     for (let i = 0; i < JSONdataList.length; i++) {
         const iconType = JSONdataList[i]["type"];
         const itemTitle = JSONdataList[i]["title"]
@@ -38,6 +40,10 @@ function matchIconToType(JSONdataList) {
                 break;
             case "beaver":
                 img.src = "Assets/beaver-g9672e2117_640.png";
+                break;
+            case "docker":
+                img.src = "Assets/blue-g08e427f26_640.png";
+                break;
             default:
                 break;
         }

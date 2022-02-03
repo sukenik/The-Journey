@@ -78,6 +78,12 @@
     flex-direction: row-reverse;
     justify-content: space-around;
 }
+#popular-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
 .items {
     background-color: #105aca;
     font-size: 20px;
@@ -106,4 +112,7 @@
 }
 #recently-used {
     padding-bottom: 10px;
+}
+#popular {
+    padding: 10px 0 10px 0;
 }
