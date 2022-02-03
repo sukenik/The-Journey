@@ -1,16 +1,32 @@
 {
     "lastUsed": [
         {
-            "type": "poPlan",
+            "type": "unicorn",
             "title": "שמע אחי טירוף"
         },
         {
-            "type": "penguin",
+            "type": "dove",
             "title": "בדוק נעול"
         },
         {
-            "type": "penguin",
+            "type": "alligator",
             "title": "בונקר שני חיילים"
+        },
+        {
+            "type": "postgres",
+            "title": "PostgreSQL"
+        },
+        {
+            "type": "python",
+            "title": "Python"
+        },
+        {
+            "type": "mysql",
+            "title": "MySQL"
+        },
+        {
+            "type": "beaver",
+            "title": "DBeaver"
         }
     ],
     "mostPupular": [

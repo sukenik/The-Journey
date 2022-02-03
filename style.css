@@ -44,9 +44,9 @@
     float: right;
 }
 #system-logo {
-    width: 60px;
-    height: auto;
-    margin-right: 20px;
+    width: 64px;
+    height: 64px;
+    margin: 5px 20px 0 10px;
 }
 #system-logo img {
     width: 100%;
@@ -81,20 +81,29 @@
 .items {
     background-color: #105aca;
     font-size: 20px;
-    flex-basis: content;
+    width: 200px;
+    max-width: 200px;
     height: fit-content;
 }
 #three-dots-icon {
-    width: 10px;
-    height: 22px;
-    margin: 4px;
-    padding: 2px;
+    padding-left: 8px;
 }
-#three-dots-icon img {
-    width: 100%;
-    height: 100%;
+#three-dots-icon::after {
+    content: '\2807';
+    font-size: 30px;
 }
 .item-title {
-    margin: 1px;
-    padding: 2px;
+    padding: 10px;
+    text-align: center;
+}
+.item-icon {
+    display: flex;
+    justify-content: center;
+}
+.item-icon img {
+    width: 64px;
+    height: 64px;
+}
+#recently-used {
+    padding-bottom: 10px;
 }
