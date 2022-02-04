@@ -113,7 +113,6 @@
     flex-direction: row-reverse;
     justify-content: space-around;
     flex-wrap: wrap;
-    /* flex-basis: auto; */
 }
 #recommended-container > .items {
     margin: 20px 3em 1em;
@@ -121,9 +120,23 @@
 #help-section {
     align-self: flex-end;
     margin-top: 0;
-    font: var(--font);
-    font-size: 30px;
+    font-family: var(--font);
+    font-size: 25px;
 }
 #row-container-2 {
     margin: 0 20px;
+}
+.category-header {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.category-header-text {
+    flex-grow: 0.03;
+    text-align: right;
+}
+.category-line {
+    flex-grow: 1;
+    border-bottom: 2px solid #fff;
 }
