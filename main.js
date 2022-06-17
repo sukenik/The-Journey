@@ -86,3 +86,5 @@ function matchIconToType(JSONdataList, itemsList) {
         itemsList[i].children[1].appendChild(img);
     }
 }
+
+console.log(document.getElementsByClassName("item-title"));
